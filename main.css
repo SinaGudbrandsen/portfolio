@@ -1,0 +1,346 @@
+
+body {
+    position: relative;
+    margin: 0 auto; 
+}
+
+.header {
+    height: 120px;
+    width: 100vw;
+}
+/* Introduction text */
+
+.about {
+    position: absolute; 
+    top: 0; 
+    left: -4000px;
+    margin: 0 auto;
+}
+.aboutSlideIn {
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    width: 100vw; 
+    height: 100vh; 
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.textWrapper {
+    position: absolute;
+    top: 0; 
+    left: -4000px; 
+    display: grid; 
+    grid-template-columns: 200px 600px; 
+    justify-content: space-evenly;  
+    height: 400px; 
+    margin: 0 auto; 
+    margin-top: 200px; 
+    text-align: left; 
+    font-family: 'avenir'; 
+    font-weight: 500; 
+    font-size: 16px; 
+    background-color: white; 
+}
+
+.textWrapperShow {
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    display: grid; 
+    grid-template-columns: 200px 600px; 
+    justify-content: space-evenly;  
+    height: 400px;
+    width: 100vw; 
+    margin: 0 auto; 
+    margin-top: 200px; 
+    text-align: left; 
+    font-family: 'avenir'; 
+    font-weight: 500; 
+    font-size: 16px;
+    transition: .5s; 
+    background-color: white; 
+    overflow:hidden;
+}
+.introductionText span {
+    color: #4e36ff;
+    justify-self: center; 
+}
+
+.contact {
+    color: #4e36ff;
+    font-size: 20px; 
+}
+.hi {
+    color: #4e36ff; 
+    font-size: 20px; 
+
+}
+
+/* About me button action */
+.omMeg {
+    font-family: 'avenir', sans-serif;
+    font-weight: 500;
+    font-size: 15px; 
+    margin: 0 auto; 
+    position: absolute;
+    color: #4e36ff; 
+    top: 50px; 
+    right: 60px; 
+    z-index: 2;
+    transition: .5s;
+}
+.omMegClicked {
+    display: none;  transition: .5s;
+}
+
+.back {
+    display: none;
+}
+.backShow {
+    display: block; 
+    font-family: 'avenir', sans-serif;
+    font-weight: 500;
+    font-size: 15px; 
+    margin: 0 auto; 
+    position: absolute;
+    color: #4e36ff; 
+    top: 50px; 
+    right: 60px; 
+    z-index: 3;
+    transition: .5s; 
+}
+/* Header */
+.header img {
+    z-index: 3;
+    height: 65px; 
+    margin-top: 50px; 
+    margin-left: 100px; 
+}
+.header img:hover {
+
+    cursor: pointer;
+} 
+
+/* Hero / Introduction text */
+ 
+.hero {
+    height: calc(100vh - 120px); 
+    width: 100vw; 
+}
+
+.introtekst { 
+    position: absolute;
+    top: 300px; 
+    left: calc(50% - 300px); 
+    text-align: center; 
+    width: 560px; 
+    margin: 15px; 
+    font-family: "futura";
+    font-size: 35px; 
+    color: fff; 
+    letter-spacing: .3rem;
+}
+.divider {
+    width: 1px; 
+    height: 70px; 
+    margin: 0 auto; 
+    background-color: #2E38DB; 
+}   
+
+/* Work Presentation */
+a:link {
+    text-decoration: none;
+  }
+  
+.workSection {
+
+    width: 100vw; 
+    height: 3300px;
+}
+
+/* Beolab */
+.beolab {
+    display: flex; 
+    width: 100vw; 
+    margin: 0 auto;
+    height: 100vh;
+    align-items: center;
+    background-color: #f3e4cf; 
+}
+.beolabTextArea {
+    display: grid;
+    grid-template-rows: 30px 100px;  
+    align-items: start; 
+    padding-left: 100px; 
+}
+.campaign {
+    font-family: 'futura', sans-serif;
+    font-size: 15px; 
+    font-weight: 100; 
+    color: #4e36ff;
+    text-decoration: none; 
+}
+.beolabNineteen { 
+    font-family: 'futura', sans-serif;
+    margin: 0 auto; 
+    color: white;
+    font-size: 70px;  
+    font-weight: 300; 
+}
+
+.mockupcampaign {
+    margin: 0 auto; 
+    width: 600px; 
+}
+
+/* Soda Magazine */
+
+.soda {
+    display: flex;
+  
+    align-items: center;
+    width: 100vw; 
+    margin: 0 auto; 
+    height: 100vh;
+    position: relative;
+    background-color: white; 
+}
+.sodaTextArea {
+    display: grid;
+    grid-template-rows: 30px 100px;  
+    align-items: start; 
+    padding-left: 100px; 
+}
+.sodaTekst {
+    font-family: 'futura', sans-serif;
+    font-size: 15px; 
+    font-weight: 100; 
+    color: #4e36ff;
+    text-decoration: none; 
+}
+.sodaMagazine {
+    font-family: 'futura', sans-serif;
+    margin: 0 auto; 
+    color:   rgb(44, 44, 44);
+    font-size: 70px;  
+    font-weight: 300; 
+    width: 400px; 
+   line-height: 80px; 
+   height: 400px; 
+}
+.mockupmagazine {
+    margin: 0 auto; 
+    width: 600px; 
+}
+/* React App */
+
+.react {
+    background-color: #f3e4cf; 
+    display: flex;
+    align-items: center;
+    width: 100vw; 
+    margin: 0 auto; 
+    height: 100vh;
+    position: relative;
+
+}
+.reactTextArea {
+    display: grid;
+    grid-template-rows: 30px 100px;  
+    align-items: start; 
+    padding-left: 100px; 
+}
+.reactTekst {
+    font-family: 'futura', sans-serif;
+    font-size: 15px; 
+    font-weight: 100; 
+    color: #4e36ff;
+    text-decoration: none; 
+}
+.reactApp {
+    font-family: 'futura', sans-serif;
+    margin: 0 auto; 
+    color:   white;
+    font-size: 70px;  
+    font-weight: 300; 
+    width: 400px; 
+   line-height: 70px; 
+}
+.mockupReact {
+    margin: 0 auto; 
+    width: 600px; 
+}
+
+/* Hemsedal */
+.hemsedal {
+    width: 100vw; 
+    height: 100vh;
+    background-color:#f3e4cf;
+    display: flex; 
+    align-items: center;
+    width: 100vw; 
+    margin: 0 auto; 
+    height: 100vh;
+    position: relative;
+}
+.hemsedalTextArea {
+    display: grid;
+    grid-template-rows: 30px 100px;  
+    align-items: start; 
+    padding-left: 100px; 
+}
+.hemsedalTekst {
+    font-family: 'futura', sans-serif;
+    font-size: 15px; 
+    font-weight: 100; 
+    color: #4e36ff;
+    text-decoration: none; 
+}
+.hemsedalCollection { 
+    font-family: 'futura', sans-serif;
+    margin: 0 auto; 
+    color: white;
+    width: 300px; 
+    font-size: 70px;  
+    font-weight: 300; 
+}
+.mockupmagazineHemsedal {
+    margin: 0 auto; 
+    width: 600px; 
+}
+
+/* Contact Section */
+
+.contactSection {
+    font-family: "futura", sans-serif; 
+    margin: 0 auto; 
+    width: 100vw; 
+    height: 200px;
+    display: grid; 
+    grid-template-columns: 400px 100px 100px; 
+    justify-content: center; 
+}
+.linkedIn img {
+    margin-top: 60px; 
+    width: 35px; 
+    height: 35px;
+    justify-self: end;
+}
+.sendMail img {
+    margin-top: 60px; 
+    width: 35px; 
+    height: 35px;
+    justify-self: end;
+}
+.bottomContact {
+   
+    color: black;
+    font-size: 20px; 
+    font-weight: 100; 
+    margin: 0 auto; 
+    margin-top: 65px; 
+      
+    justify-self: start;
+    
+}
